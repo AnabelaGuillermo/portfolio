@@ -1,0 +1,41 @@
+:root {
+    --color-primario: #beb060;
+    --color-secundario: #cccccc;
+    --color-terciario: #1d1d20;
+    --color-adicional: #646464;
+  }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.inicio-container {
+  margin-right: auto;
+}
+
+.inicio {
+  font-size: 16px;
+  color: var(--color-adicional);
+  text-decoration: none;
+}
+
+.inicio:hover {
+    color: var(--color-primario);
+  }
+
+.icons-pages {
+  display: flex;
+  gap: 10px;
+}
+
+.icons-pages i {
+  color: var(--color-adicional);
+  padding: 5px;
+}
+
+.icons-pages i:hover {
+  color: var(--color-primario);
+}

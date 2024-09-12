@@ -10,6 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   background-color: var(--color-terciario);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .icons {

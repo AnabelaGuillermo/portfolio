@@ -1,9 +1,9 @@
 :root {
-    --color-primario: #beb060;
-    --color-secundario: #cccccc;
-    --color-terciario: #1d1d20;
-    --color-adicional: #646464;
-  }
+  --color-primario: #beb060;
+  --color-secundario: #cccccc;
+  --color-terciario: #1d1d20;
+  --color-adicional: #646464;
+}
 
 header {
   display: flex;
@@ -23,8 +23,8 @@ header {
 }
 
 .inicio:hover {
-    color: var(--color-primario);
-  }
+  color: var(--color-primario);
+}
 
 .icons-pages {
   display: flex;
@@ -38,4 +38,22 @@ header {
 
 .icons-pages i:hover {
   color: var(--color-primario);
+}
+
+.sample {
+  color: var(--color-secundario);
+
+  & img {
+    height: auto;
+    max-height: 300px;
+  }
+}
+
+.web {
+    text-decoration: none;
+    color: var(--color-adicional);
+}
+
+.web:hover {
+    color: var(--color-primario);
 }
